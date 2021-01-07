@@ -1,5 +1,5 @@
 # Network Supported RAID5 Storage System: 
-Developed a python model of a network UNIX filesystem. This model was divided into a client and servers which provided redundant block storage for the client. The model provides an equal distribution of load (data from client) across servers, and is fault tolerant.
+Developed a python model of a network UNIX filesystem. This model was divided into a client and servers which provided redundant storage for the client. The model provides an equal distribution of load (data from client) across servers, and is fault tolerant.
 ## Goal
 The goal of this project is to create a network file system that is tolerant to two types of failuers which are soft and hard failuers. Soft failuers occur when data in a storage system statrs to decay and some kind of a masking process can correct the fault bits and a hard failuer occurs when the entire server goes down. 
 ## Client/Servers
